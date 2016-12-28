@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02E1F982A370F150B5FD5DF1 /* Pods_MRSwiftTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4E9A10B3468DC55C6AF06F /* Pods_MRSwiftTarget.framework */; };
 		4E2647DC1E114188008FD4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2647DB1E114188008FD4EE /* AppDelegate.swift */; };
 		4E2647E11E114188008FD4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2647DF1E114188008FD4EE /* Main.storyboard */; };
 		4E2647E61E114188008FD4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2647E41E114188008FD4EE /* LaunchScreen.storyboard */; };
@@ -16,9 +17,12 @@
 		4E31EDA21E1159A3008C0857 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E31EDA11E1159A3008C0857 /* Live.storyboard */; };
 		4E31EDA51E1159BB008C0857 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E31EDA31E1159BB008C0857 /* Follow.storyboard */; };
 		4E31EDA71E1159D3008C0857 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E31EDA61E1159D3008C0857 /* Profile.storyboard */; };
+		4EDAAB2A1E11F9A700490C5B /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAAB291E11F9A700490C5B /* UIBarButtonItem-Extension.swift */; };
+		4EDAAB2D1E11FC8A00490C5B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAAB2C1E11FC8A00490C5B /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E31325F033BBAFC3FDDCD94 /* Pods-MRSwiftTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRSwiftTarget.release.xcconfig"; path = "Pods/Target Support Files/Pods-MRSwiftTarget/Pods-MRSwiftTarget.release.xcconfig"; sourceTree = "<group>"; };
 		4E2647D81E114188008FD4EE /* MRSwiftTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRSwiftTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2647DB1E114188008FD4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E2647E01E114188008FD4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,6 +34,10 @@
 		4E31EDA11E1159A3008C0857 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		4E31EDA41E1159BB008C0857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
 		4E31EDA61E1159D3008C0857 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		4EDAAB291E11F9A700490C5B /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		4EDAAB2C1E11FC8A00490C5B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE0A9078E72271DE015C3FD6 /* Pods-MRSwiftTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRSwiftTarget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MRSwiftTarget/Pods-MRSwiftTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		FB4E9A10B3468DC55C6AF06F /* Pods_MRSwiftTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRSwiftTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E1F982A370F150B5FD5DF1 /* Pods_MRSwiftTarget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +57,8 @@
 			children = (
 				4E2647DA1E114188008FD4EE /* MRSwiftTarget */,
 				4E2647D91E114188008FD4EE /* Products */,
+				9F763AFB55CFCCF4252E4ACF /* Pods */,
+				DAF0EF85B35B7765C08AC330 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,7 +79,6 @@
 				4E31EDA61E1159D3008C0857 /* Profile.storyboard */,
 				4E31EDA31E1159BB008C0857 /* Follow.storyboard */,
 				4E31EDA11E1159A3008C0857 /* Live.storyboard */,
-				4E31ED9E1E11583D008C0857 /* Home.storyboard */,
 				4E2647E41E114188008FD4EE /* LaunchScreen.storyboard */,
 				4E2647E71E114188008FD4EE /* Info.plist */,
 				4E31ED911E115126008C0857 /* Assets.xcassets */,
@@ -99,6 +109,7 @@
 		4E31ED971E115652008C0857 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				4EDAAB2B1E11FC5D00490C5B /* Controller */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -128,8 +139,43 @@
 		4E31ED9B1E115652008C0857 /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				4EDAAB281E11F98A00490C5B /* Extension */,
 			);
 			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		4EDAAB281E11F98A00490C5B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAAB291E11F9A700490C5B /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4EDAAB2B1E11FC5D00490C5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAAB2C1E11FC8A00490C5B /* HomeViewController.swift */,
+				4E31ED9E1E11583D008C0857 /* Home.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F763AFB55CFCCF4252E4ACF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A9078E72271DE015C3FD6 /* Pods-MRSwiftTarget.debug.xcconfig */,
+				2E31325F033BBAFC3FDDCD94 /* Pods-MRSwiftTarget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAF0EF85B35B7765C08AC330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB4E9A10B3468DC55C6AF06F /* Pods_MRSwiftTarget.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E2647EA1E114188008FD4EE /* Build configuration list for PBXNativeTarget "MRSwiftTarget" */;
 			buildPhases = (
+				065A40CAD963048468BF3039 /* [CP] Check Pods Manifest.lock */,
 				4E2647D41E114187008FD4EE /* Sources */,
 				4E2647D51E114187008FD4EE /* Frameworks */,
 				4E2647D61E114187008FD4EE /* Resources */,
+				F009486B0899418D1C262486 /* [CP] Embed Pods Frameworks */,
+				4CA2D74B98794A7DBACE2EC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +253,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		065A40CAD963048468BF3039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CA2D74B98794A7DBACE2EC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRSwiftTarget/Pods-MRSwiftTarget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F009486B0899418D1C262486 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRSwiftTarget/Pods-MRSwiftTarget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E2647D41E114187008FD4EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -211,6 +308,8 @@
 			files = (
 				4E31ED9D1E11566B008C0857 /* MainTabBarController.swift in Sources */,
 				4E2647DC1E114188008FD4EE /* AppDelegate.swift in Sources */,
+				4EDAAB2A1E11F9A700490C5B /* UIBarButtonItem-Extension.swift in Sources */,
+				4EDAAB2D1E11FC8A00490C5B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +338,7 @@
 				4E31ED9F1E11583D008C0857 /* Base */,
 			);
 			name = Home.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		4E31EDA31E1159BB008C0857 /* Follow.storyboard */ = {
@@ -347,6 +447,7 @@
 		};
 		4E2647EB1E114188008FD4EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0A9078E72271DE015C3FD6 /* Pods-MRSwiftTarget.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -362,6 +463,7 @@
 		};
 		4E2647EC1E114188008FD4EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E31325F033BBAFC3FDDCD94 /* Pods-MRSwiftTarget.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
