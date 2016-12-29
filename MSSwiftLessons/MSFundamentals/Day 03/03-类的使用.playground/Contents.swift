@@ -25,6 +25,6 @@ class Person {
 let view = UIView()
 
 let p = Person()
-p.name = "why"
+p.name = "mr"
 p.age = 18
 p.view = view

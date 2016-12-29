@@ -18,9 +18,9 @@ let path : String? = Bundle.main.path(forResource: "123.plist", ofType: nil) // 
 
 // 3.将字符串转成NSURL
 // 如果字符串中有中文,那么就是转化不成功, 返回结果 nil
-// let url : NSURL? = NSURL(string: "http://www.520it.com") // URL/nil
-let url = URL(string: "http://www.520it.com")
+// let url : NSURL? = NSURL(string: "http://www.apple.com") // URL/nil
+let url = URL(string: "http://www.apple.com")
 
 // 4.从字典中取出元素
-let dict : [String : Any] = ["name" : "why", "age" : 18]
+let dict : [String : Any] = ["name" : "mr", "age" : 18]
 let value = dict["neme"] // Any/nil

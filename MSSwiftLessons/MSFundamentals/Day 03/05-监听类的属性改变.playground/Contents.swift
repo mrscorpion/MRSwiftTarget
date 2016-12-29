@@ -21,5 +21,5 @@ class Person {
 
 let p = Person()
 
-p.name = "why"
+p.name = "mr"
 p.name = "lmj"

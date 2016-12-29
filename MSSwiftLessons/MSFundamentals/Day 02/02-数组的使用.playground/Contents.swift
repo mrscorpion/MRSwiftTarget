@@ -20,7 +20,7 @@ import UIKit
 // 1.数组的定义
 // 1> 定义不可变数组: 使用let修饰 
 // 数组的类型: 1> Array<String> 2> [String] (推荐)
-let array = ["why", "lmj", "lnj"]
+let array = ["mr", "lmj", "lnj"]
 // array.append("yz")
 
 // 2> 定义可变数组: 使用var修饰
@@ -32,7 +32,7 @@ var arrayM = [String]()
 // 2.对可变数组的基本操作
 // 增删改查
 // 2.1.添加元素
-arrayM.append("why")
+arrayM.append("mr")
 arrayM.append("lmj")
 arrayM.append("lnj")
 

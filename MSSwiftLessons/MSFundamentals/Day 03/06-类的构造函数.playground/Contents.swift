@@ -56,7 +56,7 @@ class Person {
 
 
 let p1 = Person()
-let p2 = Person(name: "why", age: 18)
-let p3 = Person(dict: ["name" : "why", "age" : 18])
+let p2 = Person(name: "mr", age: 18)
+let p3 = Person(dict: ["name" : "mr", "age" : 18])
 
 print(p3.name, p3.age)

@@ -32,7 +32,7 @@ class Student {
 // 2.创建类的对象
 let stu = Student()
 
-stu.name = "why"
+stu.name = "mr"
 stu.age = 18
 stu.mathScore = 90
 stu.chineseScore = 60

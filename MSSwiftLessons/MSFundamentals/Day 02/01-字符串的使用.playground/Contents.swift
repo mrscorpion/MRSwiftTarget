@@ -33,13 +33,13 @@ let length = str.characters.count
 
 // 3.字符串的拼接
 // 3.1.字符串之间的拼接
-let str1 = "小码哥"
-let str2 = "IT教育"
+let str1 = "mr"
+let str2 = "scorpion"
 // OC拼接方式 NSString stringwithFormat:@"%@%@", str1, str2
 let str3 = str1 + str2
 
 // 3.2.字符串和其它标识符之间的拼接
-let name = "why"
+let name = "mr"
 let age = 19
 let height = 1.87
 
@@ -53,7 +53,7 @@ let timeStr = String(format: "%02d:%02d", min, second)
 
 
 // 4.字符串的截取
-let urlString = "www.520it.com"
+let urlString = "www.apple.com"
 
 // 4.1.方式一:
 // 将String类型转成NSString类型,再进行截取: as NSString

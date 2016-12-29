@@ -38,5 +38,5 @@ class Person : NSObject {
 
 //let p = Person()
 
-let p = Person(dict: ["name" : "why", "age" : 18, "height" : 1.88, "phoneNum" : "+86 110"])
+let p = Person(dict: ["name" : "mr", "age" : 18, "height" : 1.88, "phoneNum" : "+86 110"])
 print(p.age, p.name, p.height)

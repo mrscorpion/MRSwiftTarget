@@ -32,7 +32,7 @@ class Toy {
 
 // 2.创建类的对象
 let p = Person()
-p.name = "why"
+p.name = "mr"
 let d = Dog()
 d.weight = 60.0
 let t = Toy()

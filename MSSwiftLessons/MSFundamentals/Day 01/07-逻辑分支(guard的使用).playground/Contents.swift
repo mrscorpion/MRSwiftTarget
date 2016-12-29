@@ -34,16 +34,16 @@ func online(age : Int) {
     
     // 2.判断是否带了身份证
 //    guard 带了身份证 else {
-    let x :String?
-    guard x? == "带了身份证" else {
+    let x :String? = "带了身份证"
+    guard (x != nil) else {
         print("回家拿身份证")
         return
     }
     
     // 3.判断是否带了钱
 //    guard 带了钱 else {
-    let y :String?
-    guard y == "带了钱" else {
+    let y :String? = "带了钱"
+    guard (y != nil) else {
         print("回家拿钱")
         return
     }

@@ -3,7 +3,7 @@
 //  05-访问权限
 //
 //  Created by 1 on 16/9/28.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Copyright © 2016年 mr. All rights reserved.
 //
 
 import UIKit
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // 访问name
-        name = "why"
+        name = "mr"
         print(name)
         
         // 访问age
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
 class Person {
     func test() {
         let vc = ViewController()
-        vc.name = "why"
+        vc.name = "mr"
         // vc.age
         vc.height = 1.88
     }

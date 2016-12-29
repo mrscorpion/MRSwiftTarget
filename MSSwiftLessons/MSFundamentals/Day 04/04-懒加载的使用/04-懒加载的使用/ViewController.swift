@@ -3,7 +3,7 @@
 //  04-懒加载的使用
 //
 //  Created by 1 on 16/9/28.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Copyright © 2016年 mr. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     // lazy var names : [String] = ["why", "lmj", "lnj"]
     lazy var names : [String] = {
-        let names = ["why", "lmj", "lnj"]
+        let names = ["mr", "lmj", "lnj"]
         
         print("-----")
         

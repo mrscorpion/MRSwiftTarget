@@ -21,12 +21,12 @@ import UIKit
 // 1> 定义不可变字典 : 使用let修饰
 let a : Int = 10
 // 编译器会根据[]中是一个个元素(数组),还是键值对(字典)
-//let dict = ["name" : "why", "age" : 18, "height" : 1.88] as [String : Any]
+//let dict = ["name" : "mr", "age" : 18, "height" : 1.88] as [String : Any]
 //let dict = ["123" : "321", "abc" : "cba"] 不需要进行转化
 // Array<String> --> [String]
-// let dict : Dictionary<String, Any> = ["name" : "why", "age" : 18, "height" : 1.88]
+// let dict : Dictionary<String, Any> = ["name" : "mr", "age" : 18, "height" : 1.88]
 // dict["phoneNum"] = "+86 110" 错误写法
-let dict : [String : Any] = ["name" : "why", "age" : 18, "height" : 1.88]
+let dict : [String : Any] = ["name" : "mr", "age" : 18, "height" : 1.88]
 
 // 2> 定义可变字典 : 使用var修饰
 // var arrayM = [String]()
@@ -36,7 +36,7 @@ var dictM = [String : Any]()
 
 // 2.对可变字典的基本操作(增删改查)
 // 2.1.添加元素
-dictM["name"] = "why"
+dictM["name"] = "mr"
 dictM["age"] = 18
 dictM["height"] = 1.88
 dictM
@@ -76,7 +76,7 @@ for (key, value) in dict {
 
 
 // 4.字典合并
-var dict1 : [String : Any] = ["name" : "why", "age" : 18]
+var dict1 : [String : Any] = ["name" : "mr", "age" : 18]
 let dict2 : [String : Any] = ["height" : 1.88, "phoneNum" : "+86 110"]
 
 //let resultDict = dict1 + dict2

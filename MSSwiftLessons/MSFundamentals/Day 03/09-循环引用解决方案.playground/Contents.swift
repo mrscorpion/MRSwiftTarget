@@ -32,7 +32,7 @@ class Book {
 
 // 2.创建两个对象
 var person : Person? = Person()
-person!.name = "why"
+person!.name = "mr"
 var book : Book? = Book()
 book!.price = 60.0
 

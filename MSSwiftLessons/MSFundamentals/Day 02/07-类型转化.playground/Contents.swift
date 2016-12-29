@@ -4,11 +4,11 @@ import UIKit
 
 // 1.之前的as使用
 // as
-let str = "www.520it.com"
+let str = "www.apple.com"
 (str as NSString).substring(to: 6)
 
 // 2.as? as! --> 将Any类型转成具体类型
-let dict : [String : Any] = ["name" : "why", "age" : 18, "height" : 1.88]
+let dict : [String : Any] = ["name" : "mr", "age" : 18, "height" : 1.88]
 
 // 2.1. as? 的用法
 // 通过as?转成可选类型

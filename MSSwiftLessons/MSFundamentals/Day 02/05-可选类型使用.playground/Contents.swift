@@ -9,7 +9,7 @@ import UIKit
     2> String?
  2.给可选类型进行赋值
     1> Optional("why")
-    2> "why"
+    2> "mr"
  3.从可选类型中取值
     name! --> 强制解包
  4.注意: 强制解包非常危险,所有先判断,再解包
@@ -25,7 +25,7 @@ class Person {
 }
  */
 
-//var str : String = "why"
+//var str : String = "mr"
 
 // nil是一个特殊的类型, 跟String/Int一样
 // let m : Int = "why" 错误写法
@@ -45,7 +45,7 @@ var name : String? = nil
 //name = Optional("why")
 //
 //// 2.2.赋值方式二:
-name = "why"
+name = "mr"
 
 
 // 3.取出可选类型中的值
